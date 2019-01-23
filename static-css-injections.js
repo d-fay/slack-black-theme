@@ -71,6 +71,36 @@ document.addEventListener("DOMContentLoaded", function() {
     
    }
 
+   span.c-message_kit__text{
+     color: #afafaf !important;
+   }
+
+   span.c-channel_name__text{
+    color: #afafaf !important;
+   }
+
+   span.p-threads_flexpane__separator_count{
+    color: #afafaf !important;
+   }
+
+   span.c-label__text{
+    color: #afafaf !important;
+   }
+
+   div.p-flexpane_header.p-threads_flexpane__header{
+    color: #afafaf !important;
+    background: #282C34 !important;
+   }
+
+   div..p-threads_footer__input.p-message_input_field{
+    background: #282C34 !important;
+   }
+  
+   button.p-threads_footer__input--legacy.p-message_input_plus{
+    background: #282C34 !important;
+   }
+
+
    // NOT WORKING
    // div.ql-editor.c-message__editor__input {
    //  background: #2c2d30 !important;
