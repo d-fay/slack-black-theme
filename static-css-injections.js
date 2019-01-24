@@ -100,16 +100,13 @@ document.addEventListener("DOMContentLoaded", function() {
     background: #282C34 !important;
    }
 
+   div#client_body:not(.onboarding):not(.feature_global_nav_layout):before{
+    background: transparent;    
+   }
 
-   // NOT WORKING
-   // div.ql-editor.c-message__editor__input {
-   //  background: #2c2d30 !important;
-   // }
-   //
-   // div.c-message--light .c-message--highlight .c-message--editing .c-message--highlight_yellow_bg{
-   //  background: #3B4048 !important;
-   //  border: none !important;
-   // }
+   div#client_body::before, #client_body:not(.onboarding):before{
+    border-bottom: transparent !important;
+   }
 
     `
 
