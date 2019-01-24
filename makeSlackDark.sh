@@ -2,7 +2,9 @@
 
 declare -ra LOCATIONS=(
    /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/index.js
+   /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
    /usr/lib/slack/resources/app.asar.unpacked/src/static/index.js
+   /usr/lib/slack/resources/app.asar.unpacked/src/static/ssb-interop.js
 )
 
 declare -r REPO_DIRECTORY="${0%/*}"
