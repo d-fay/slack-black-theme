@@ -28,6 +28,15 @@ Next, execute the script:
 ```
 
 
+## Windows Script Install
+
+```batch
+git clone https://github.com/d-fay/slack-black-theme
+cd slack-black-theme
+makeSlackDark.bat
+```
+Then restart Slack
+
 ## Manual Install
 
 Open up the most recent version (e.g. `app-3.1.1`) then open
