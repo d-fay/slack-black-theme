@@ -118,15 +118,42 @@ document.addEventListener("DOMContentLoaded", function() {
     
    }
 
-   // NOT WORKING
-   // div.ql-editor.c-message__editor__input {
-   //  background: #2c2d30 !important;
-   // }
-   //
-   // div.c-message--light .c-message--highlight .c-message--editing .c-message--highlight_yellow_bg{
-   //  background: #3B4048 !important;
-   //  border: none !important;
-   // }
+   span.c-message_kit__text{
+     color: #afafaf !important;
+   }
+
+   span.c-channel_name__text{
+    color: #afafaf !important;
+   }
+
+   span.p-threads_flexpane__separator_count{
+    color: #afafaf !important;
+   }
+
+   span.c-label__text{
+    color: #afafaf !important;
+   }
+
+   div.p-flexpane_header.p-threads_flexpane__header{
+    color: #afafaf !important;
+    background: #282C34 !important;
+   }
+
+   div..p-threads_footer__input.p-message_input_field{
+    background: #282C34 !important;
+   }
+  
+   button.p-threads_footer__input--legacy.p-message_input_plus{
+    background: #282C34 !important;
+   }
+
+   div#client_body:not(.onboarding):not(.feature_global_nav_layout):before{
+    background: transparent;    
+   }
+
+   div#client_body::before, #client_body:not(.onboarding):before{
+    border-bottom: transparent !important;
+   }
 
     `
 
