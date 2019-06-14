@@ -27,6 +27,10 @@ Next, execute the script:
 ./makeSlackDark.sh
 ```
 
+You might also need to alter the permissions for `ssb-interop.js` prior to execution of `makeSlackDark.sh`:
+```bash
+sudo chmod 700 /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
+```
 
 ## Windows Script Install
 
